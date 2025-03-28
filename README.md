@@ -49,6 +49,7 @@ LLMRepo is a tool that allows users to interact with GitHub repositories through
 ### Running the Application
 
 **Option 1: Using the main script (recommended)**
+(this is giving errors atm, if you know coding- pls fix)
 
 ```
 python main.py
@@ -68,6 +69,8 @@ This script will:
    ```
    # From the project root
    python backend/main.py
+   OR
+   python -m uvicorn backend.main:app --reload
    ```
 
    The backend will run at http://localhost:8000
