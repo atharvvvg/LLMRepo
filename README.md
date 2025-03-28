@@ -16,7 +16,7 @@ LLMRepo is a tool that allows users to interact with GitHub repositories through
 
    ```
    git clone <repository-url>
-   cd LLMRepo2
+   cd LLMRepo
    ```
 
 2. **Set up the backend**
