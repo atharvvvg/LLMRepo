@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.code-block {
+  border-radius: 4px;
+  margin: 1rem 0;
+  overflow: auto;
+}
+
+.repo-card {
+  transition: transform 0.3s ease;
+}
+
+.repo-card:hover {
+  transform: translateY(-5px);
+}
+
+.chat-message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.user-message {
+  background-color: #e3f2fd;
+  margin-left: 2rem;
+}
+
+.ai-message {
+  background-color: #f5f5f5;
+  margin-right: 2rem;
+}
